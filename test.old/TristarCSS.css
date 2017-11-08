@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+#headerWrapper {
+  margin: 0;
+  padding: 0;
+/*  position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  text-align: right;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  height: 100%;
+}
+
+#TN {
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #b30000;
+  font-weight: bold;
+  float: right;
+  margin-top: 10px;
+}
+
+#Legal {
+  padding: 7px 0 0 0;
+  font-family: serif;
+  font-size: 2.5em;
+  color: navy;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+#slogan {
+  padding: 0;
+  font-family: serif;
+  font-size: .75em;
+  color: navy;
+  float: right;
+  margin-right: 50px;
+  margin-top: 0;
+}
+
+#navWrapper {
+  margin: 0;
+  padding: 0;
+/*  position: fixed;
+  top: 100px;
+  left: 0; */
+  width: 100%;
+  background-color: white;
+}
+
+#nav {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 100%;
+  min-width: 300px;
+}
+
+#navBottom {
+  margin: 0;
+  padding: 0;
+  height: 5px;
+  width: 100%;
+}
+
+#navBottomHead {
+  margin: 0;
+  padding: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #99c2ff;
+}
+
+#navBottomFoot {
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  width: 100%;
+  background-color: grey;
+}
+
+#navContent {
+  position: relative;
+  display: inline-block;
+}
+
+		/*dropdown menu*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropDown:hover .dropbtn {
+  background-color: #99c2ff;
+}
+
+li.dropDown {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(a,0,0,0.2);
+  font-size: .8em;
+}
+
+.dropDownContent a {
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  color: black;
+}
+
+.dropDownContent a:hover {background-color: #f1f1f1}
+
+.dropDown:hover .dropDownContent {
+  display: block;
+}
+
+		/* end dropdown*/
+
+/*
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  margin: 0;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  height: 100%;
+  min-width: 300px;
+}
+
+.content_title {
+  margin: 0 auto 5px auto;
+  padding: 0;
+  width: 75%;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 2px solid grey;
+}
+
+.content_instructions {
+  margin: 3px auto 20px auto;
+  padding: 0;
+  width: 75%;
+  font-size: 1em;
+  text-align: center;
+  border-bottom: .5px solid black;
+}
+
+		 collapsable queries 
+
+.question_title {
+  margin: 0 auto 0 auto;
+  padding: 15px 0 15px 0;
+  width: 75%;
+  font-size: 1.1em;
+  text-align: center;
+  background-color: #99c2ff;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: .5px solid black;
+  border-bottom: .5px solid black;
+
+}
+
+.question_content {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: 75%;
+  font-size: 1em;
+  text-align: center;
+  background-color: #e6e6e6;
+  display: inline-block;
+}
+
+.question_content_left {
+  margin: 20px auto 20px auto;
+  float: left;
+  padding: 5px 50px 5px 50px;
+}
+
+.question_content_right {
+  margin: 20px auto 20px auto;
+  float: right;
+  padding: 0 50px 0 50px;
+}
+
+		collapsable queries end 
+
+.content_box {
+  display: inline-block;
+  margin: 5px;
+  padding: 0;
+  background-color: #99c2ff;
+  width: 146px;
+  height: 71px;
+  text-align: center;
+  border: 2px solid grey;
+  line-height: 71px;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+.query_field {
+  margin: 0 auto 0 auto;
+  padding: 30px 0 30px 0;
+  width: 75%;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 2px double #99c2ff;
+}
+
+.go_field {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+.go_field a {
+  text-decoration: none;
+  color: black;
+}
+
+.go_continue {
+  margin: 30px 75px 0 auto;
+  padding: 0;
+  width: 146px;
+  height: 46px;
+  border: 2px solid grey;
+  line-height: 46px;
+  background-color: #99c2ff;
+  display: inline-block;
+}
+
+.go_previous {
+  margin: 30px auto 0 75px;
+  padding: 0;
+  width: 146px;
+  height: 46px;
+  border: 2px solid grey;
+  line-height: 46px;
+  background-color: #99c2ff;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 0 0;
+  padding: 0;
+  background-color: #cccccc; 
+}
+
+.footer_border_top {
+  width: 100%;
+  height: 3px;
+  background-color: #99c2ff;
+}
+
+.footer_border_bottom {
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+}
+
+.footer_info {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: serif;
+  font-size: 1em;
+}
+  
+
+h {
+  font-family: sans-serif;
+  font-size: 1.25em;
+  color: black;
+}
+
+p {
+  font-family: serif;
+  font-size: 1em;
+  color: black;
+}
+
+*/
+
+#contentWrapper {
+	
+}
+
+.question {
+	display: inline-block;
+}
+
+.answer {
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+.title {
+	text-align: center;
+	background-color: #99c2ff;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+
+.floatWrapper {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #ffffe6;
+	width: 80%;
+}
+.floatRightButton {
+	float: right;
+	font-size: 1.5em;
+	width: 150px;
+	background-color: #99c2ff;
+	margin: 0px;
+}
+
+/*hidden info*/
+
+#landlordIndivOne {
+	display: none;
+} 
+#landlordIndivTwo {
+	display: none;
+} 
+#landlordIndivThree {
+	display: none;
+} 
+#landlordIndivFour {
+	display: none;
+} 
+#landlordIndivFive {
+	display: none;
+}
+#landlordBusOne {
+	display: none;
+} 
+#landlordBusTwo {
+	display: none;
+} 
+#landlordBusThree {
+	display: none;
+} 
+#landlordBusFour {
+	display: none;
+} 
+#landlordBusFive {
+	display: none;
+}
+#landlordContactEmail {
+	display: none;
+}  
+#landlordContactAddy {
+	display: none;
+}
+#tenantNameOne {
+	display: none;
+} 
+#tenantNameTwo {
+	display: none;
+} 
+#tenantNameThree {
+	display: none;
+} 
+#tenantNameFour {
+	display: none;
+} 
+#tenantNameFive {
+	display: none;
+}  
+#dependentNameOne {
+	display: none;
+} 
+#dependentNameTwo {
+	display: none;
+} 
+#dependentNameThree {
+	display: none;
+} 
+#dependentNameFour {
+	display: none;
+} 
+#dependentNameFive {
+	display: none;
+} 
+#dependentNameSix {
+	display: none;
+} 
+#dependentNameSeven {
+	display: none;
+} 
+#dependentNameEight {
+	display: none;
+} 
+
+#rentDueWeekly {
+	display: none;
+}
+#rentDueMonthly {
+	display: none;
+}
+#rentDueYearly {
+	display: none;
+}
+#prorataAmount {
+	display: none;
+}
+
+#secDepositMoney {
+	display: none;
+}
+#secDepositWhere {
+	display: none;
+}
+#petDepositMoney {
+	display: none;
+}
+#petAddOne {
+	display: none;
+}
+#petAddTwo {
+	display: none;
+}
+#petAddThree {
+	display: none;
+}
+#petAddFour {
+	display: none;
+}
+#petAddFive {
+	display: none;
+}
+#petAddSix {
+	display: none;
+}
+#petAddSeven {
+	display: none;
+}
+#petAddEight {
+	display: none;
+}

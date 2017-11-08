@@ -1,0 +1,114 @@
+<style>
+#allDependents		{
+  display: none;
+}
+
+#firstLandlord 		{
+  display: block;
+}
+#secondLandlord		{
+  display: none;
+}
+#thirdLandlord		{
+  display: none;
+}
+#fourthLandlord		{
+  display: none;
+}
+#fifthLandlord		{
+  display: none;
+}
+#addLandlordOne		{
+  display: block;
+}
+#addLandlordTwo		{
+  display: block;
+}
+#addLandlordThree	{
+  display: block;
+}
+#addLandlordFour	{
+  display: block;
+}
+#addLandlordFive	{
+  display: block;
+}
+#firstTenant		{
+  display: block;
+}
+#secondTenant		{
+  display: none;
+}
+#thirdTenant		{
+  display: none;
+}
+#fourthTenant		{
+  display: none;
+}
+#fifthTenant		{
+  display: none;
+}
+#firstDependent		{
+  display: block;
+}
+#secondDependent	{
+  display: none;
+}
+#thirdDependent		{
+  display: none;
+}
+#fourthDependent	{
+  display: none;
+}
+#fifthDependent		{
+  display: none;
+}
+#sixthDependent		{
+  display: none;
+}
+#seventhDependent	{
+  display: none;
+}
+#eighthDependent	{
+  display: none;
+}
+
+#monthlyRentDay		{
+  display: block;
+}
+#annualRentDay		{
+  display: none;
+}
+#weeklyRentDay		{
+  display: none;
+}
+
+#allowPets			{
+  display: none;
+}
+#petInfoOne			{
+  display: block;
+}
+#petInfoTwo			{
+  display: none;
+}
+#petInfoThree		{
+  display: none;
+}
+#petInfoFour		{
+  display: none;
+}
+#petInfoFive		{
+  display: none;
+}
+#petInfoSix			{
+  display: none;
+}
+#petInfoSeven		{
+  display: none;
+}
+#petInfoEight		{
+  display: none;
+}
+
+</style>
