@@ -93,6 +93,17 @@ li {
   min-height: 182px;
 }
 
+.nameTag{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+
+}
+
+.mainFees {
+  border-right: 1px solid black;
+}
+
 .results  {
   border-right: .5px dotted lightgrey;
   text-align: left;
@@ -199,6 +210,10 @@ main button  {
   .big-text {
     text-align: center;
     border-right: 0px !important;
+  }
+
+  .mainFees {
+    border-right: 0px;
   }
 
 }
